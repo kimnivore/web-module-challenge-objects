@@ -104,9 +104,16 @@ Reyna's feedback is missing! Use what you know to do the following: (no function
   2. log the reviews array to the console to check your work
 */
 
+// const reynaFeedback = "this place is chill with really cool people, great for getting work done on weekdays";
+// const reyna = [];
+// for(let i = 0; i < reviews.length; i++){
+//   if(reviews[i].name === "Reyna"){
+//     reyna.push(reviews[i].feedback(reynaFeedback));
+//   }
+// }
+reviews[7].feedback = "this place is chill with really cool people, great for getting work done on weekdays";
 
-
-
+console.log('Task 4', reviews);
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Write a function that creates an object with name, rating, feedback, add the new review to the end of an array and returns the resulting array
